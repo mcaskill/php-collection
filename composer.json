@@ -1,0 +1,28 @@
+{
+    "name": "mcaskill/collection",
+    "description": "An assortment of collection classes as OOP replacements for the traditional array data structures.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chauncey McAskill",
+            "email": "chauncey@mcaskill.ca"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/mcaskill/php-collection",
+        "issues": "https://github.com/mcaskill/php-collection/issues"
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "McAskill\\Collection\\": "src"
+        }
+    }
+}
